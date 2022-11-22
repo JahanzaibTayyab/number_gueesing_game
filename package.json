@@ -1,7 +1,7 @@
 {
-  "name": "calculator",
+  "name": "@jahanzaib-tayyab/guess_number_game",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Clone the project in your machine",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
@@ -12,7 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jahanzaib Tayyab",
   "license": "ISC",
   "devDependencies": {
     "@types/chalk-animation": "^1.6.1",
@@ -28,5 +28,13 @@
     "chalk-animation": "^2.0.3",
     "gradient-string": "^2.0.2",
     "inquirer": "^9.1.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JahanzaibTayyab/number_gueesing_game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JahanzaibTayyab/number_gueesing_game/issues"
+  },
+  "homepage": "https://github.com/JahanzaibTayyab/number_gueesing_game#readme"
 }
