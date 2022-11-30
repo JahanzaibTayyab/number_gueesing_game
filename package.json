@@ -2,16 +2,19 @@
   "name": "@jahanzaib-tayyab/guess_number_game",
   "version": "1.0.0",
   "description": "## Clone the project in your machine",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "type": "module",
   "scripts": {
-    "start": "node dist/index.js",
-    "debug": "node  dist/index.js",
+    "start": "node lib/index.js",
+    "debug": "node  lib/index.js",
     "build": "tsc",
     "start:dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
+  "bin": {
+    "guess-number": "lib/index.js"
+  },
   "author": "Jahanzaib Tayyab",
   "license": "ISC",
   "devDependencies": {
@@ -36,5 +39,8 @@
   "bugs": {
     "url": "https://github.com/JahanzaibTayyab/number_gueesing_game/issues"
   },
-  "homepage": "https://github.com/JahanzaibTayyab/number_gueesing_game#readme"
+  "homepage": "https://github.com/JahanzaibTayyab/number_gueesing_game#readme",
+  "directories": {
+    "lib": "lib"
+  }
 }
